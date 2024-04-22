@@ -1,0 +1,28 @@
+body, div, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content div {
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .content img {
+    width: 100%;
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px;
+  }
+  
+  .content h2, .content p {
+    padding: 10px; 
+  }
+  
